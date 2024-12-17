@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css or src/App.css */
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-snap-align: start; /* Ensures sections snap into view */
+}
+/* Default Light Mode */
+body {
+  background-color: #f9fafb; /* Light background */
+  color: #1f2937; /* Dark text */
+}

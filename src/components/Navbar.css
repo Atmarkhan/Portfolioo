@@ -1,0 +1,29 @@
+/* Default Light Mode */
+body {
+    background-color: #f9fafb; /* Light background */
+    color: #1f2937; /* Dark text */
+  }
+  
+  nav {
+    background-color: #4a5568; /* Dark navbar background for light mode */
+  }
+  
+  /* Dark Mode */
+  body.dark {
+    background-color: #2d3748; /* Dark background */
+    color: #edf2f7; /* Light text */
+  }
+  
+  nav.dark {
+    background-color: #2d3748; /* Dark navbar background for dark mode */
+  }
+
+  body {
+    background-color: #f9fafb; /* Light background */
+  }
+  
+  body.dark {
+    background-color: #1a202c; /* Dark background */
+  }
+  
+  
